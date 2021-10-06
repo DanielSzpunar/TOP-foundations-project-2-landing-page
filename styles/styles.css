@@ -1,0 +1,136 @@
+html {
+  font-family: sans-serif;
+}
+nav {
+  display: flex;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+  margin: auto;
+  background-color: #1f2937;
+}
+.header-logo {
+  flex: 1 1 auto;
+  justify-content: left;
+  font-size: 24px;
+  color: #f9faf8;
+}
+.link-logo {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: right;
+  gap: 1.5rem;
+  font-size: 18px;
+  color: #e5e7eb;
+  align-items: center;
+}
+header {
+  display: flex;
+  padding-top: 3rem;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+  margin: auto;
+  background-color: #1f2937;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+.header-text {
+  max-width:50%;
+}
+.header-text > h1 {
+  font-size: 48px;
+  color: #f9faf8;
+}
+.header-text > p {
+  font-size: 18px;
+  color: #e5e7eb;
+  flex: 1 1 0%;
+}
+.header-img {
+  display:flex;
+  max-width: 100%;
+  flex: 1 1 0%;
+  justify-content: right;
+}
+.header-text > button {
+  color: white;
+  background-color: #3882F6;
+  padding: 6px 12px;
+  border: 1px solid #3882F6;
+  border-radius: 3px;
+}
+.hero-img {
+  align-items: center;
+}
+.info-text {
+  text-align: center;
+  font-size: 36px;
+  color: #1F2937;
+}
+.info-box-container {
+  max-width:75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: auto;
+  
+}
+.info-box-container > div {
+  flex: 1;
+  justify-content: center;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+}
+.info-box-container > div > img {
+  border: 2px solid #3882F6;
+  border-radius: 8px;
+}
+.info-box-container > div > p {
+  color: #888e97;
+}
+.quote-section-div {
+  display:flex;
+  background-color:#E5E7EB;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+  flex-direction: column;
+}
+.quote-text {
+  font-size: 36px;
+  font-style:italic;
+  font-weight:400;
+  color:#757c85;
+}
+.quote-signature {
+  align-items: right;
+  font-weight: bold;
+  justify-content: right;
+  display:flex;
+}
+.cta-div {
+  display: flex;
+  width: auto;
+  flex-direction: row;
+  background-color:#3882F6;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  margin-top:6.25%;
+  margin-bottom: 6.25%;
+  padding: 2rem 4rem;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 5px;
+}
+.cta-text > p {
+  color:white;
+  max-width: 85%
+}
+.cta-btn {
+  color:white;
+  background-color: #3882F6;
+  border: 1px solid white;
+  padding:7.5px 15px;
+  border-radius: 3px;
+}
