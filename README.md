@@ -8,7 +8,7 @@ https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/lan
 
 Lilnk to the completed project:
 
-In progress
+https://danielszpunar.github.io/TOP-foundations-project-2-landing-page/
 
 A very simple project that incorporates CSS flexbox techniques to create a landing page.
 
@@ -17,3 +17,4 @@ While this is a basic review for me, and below my skill level; I chose to comple
 Project takeaways:
 * Importance of using best CSS practices for creating a landing page.
 * The simplicity of CSS flex-box; adding a new tool to complement CSS grid.
+* Importance and attention to detail. 
